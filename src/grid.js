@@ -13,7 +13,7 @@ import {updateOneTimeBinding} from './grid-utilities';
 @customElement('au-grid')
 @inject(Container, ViewSlot, ViewCompiler, ObserverLocator, RepeatStrategyLocator)
 export class Grid extends AbstractRepeater {
-  @children('column') columns;
+  @children('au-column') columns;
   @bindable rows;
   @bindable class;
 

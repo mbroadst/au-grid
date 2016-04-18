@@ -162,7 +162,7 @@ var Column = exports.Column = (_dec = (0, _aureliaTemplating.processContent)(fal
   enumerable: true,
   initializer: null
 })), _class2)) || _class) || _class) || _class) || _class);
-var Grid = exports.Grid = (_dec4 = (0, _aureliaTemplating.customElement)('au-grid'), _dec5 = (0, _aureliaDependencyInjection.inject)(_aureliaDependencyInjection.Container, _aureliaTemplating.ViewSlot, _aureliaTemplating.ViewCompiler, _aureliaBinding.ObserverLocator, _aureliaTemplatingResources.RepeatStrategyLocator), _dec6 = (0, _aureliaTemplating.children)('column'), _dec4(_class4 = _dec5(_class4 = (_class5 = function (_AbstractRepeater) {
+var Grid = exports.Grid = (_dec4 = (0, _aureliaTemplating.customElement)('au-grid'), _dec5 = (0, _aureliaDependencyInjection.inject)(_aureliaDependencyInjection.Container, _aureliaTemplating.ViewSlot, _aureliaTemplating.ViewCompiler, _aureliaBinding.ObserverLocator, _aureliaTemplatingResources.RepeatStrategyLocator), _dec6 = (0, _aureliaTemplating.children)('au-column'), _dec4(_class4 = _dec5(_class4 = (_class5 = function (_AbstractRepeater) {
   _inherits(Grid, _AbstractRepeater);
 
   function Grid(container, viewSlot, viewCompiler, observerLocator, strategyLocator) {

@@ -81,7 +81,7 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aureli
 
   var _dec, _dec2, _dec3, _class, _desc, _value, _class2, _descriptor, _descriptor2, _descriptor3;
 
-  var Grid = exports.Grid = (_dec = (0, _aureliaTemplating.customElement)('au-grid'), _dec2 = (0, _aureliaDependencyInjection.inject)(_aureliaDependencyInjection.Container, _aureliaTemplating.ViewSlot, _aureliaTemplating.ViewCompiler, _aureliaBinding.ObserverLocator, _aureliaTemplatingResources.RepeatStrategyLocator), _dec3 = (0, _aureliaTemplating.children)('column'), _dec(_class = _dec2(_class = (_class2 = function (_AbstractRepeater) {
+  var Grid = exports.Grid = (_dec = (0, _aureliaTemplating.customElement)('au-grid'), _dec2 = (0, _aureliaDependencyInjection.inject)(_aureliaDependencyInjection.Container, _aureliaTemplating.ViewSlot, _aureliaTemplating.ViewCompiler, _aureliaBinding.ObserverLocator, _aureliaTemplatingResources.RepeatStrategyLocator), _dec3 = (0, _aureliaTemplating.children)('au-column'), _dec(_class = _dec2(_class = (_class2 = function (_AbstractRepeater) {
     _inherits(Grid, _AbstractRepeater);
 
     function Grid(container, viewSlot, viewCompiler, observerLocator, strategyLocator) {

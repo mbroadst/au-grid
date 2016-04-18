@@ -49,7 +49,7 @@ import { ObserverLocator } from 'aurelia-binding';
 import { AbstractRepeater, RepeatStrategyLocator } from 'aurelia-templating-resources';
 import { updateOneTimeBinding } from './grid-utilities';
 
-export let Grid = (_dec = customElement('au-grid'), _dec2 = inject(Container, ViewSlot, ViewCompiler, ObserverLocator, RepeatStrategyLocator), _dec3 = children('column'), _dec(_class = _dec2(_class = (_class2 = class Grid extends AbstractRepeater {
+export let Grid = (_dec = customElement('au-grid'), _dec2 = inject(Container, ViewSlot, ViewCompiler, ObserverLocator, RepeatStrategyLocator), _dec3 = children('au-column'), _dec(_class = _dec2(_class = (_class2 = class Grid extends AbstractRepeater {
 
   constructor(container, viewSlot, viewCompiler, observerLocator, strategyLocator) {
     super({

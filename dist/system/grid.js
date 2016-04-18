@@ -95,7 +95,7 @@ System.register(['aurelia-dependency-injection', 'aurelia-templating', 'aurelia-
       updateOneTimeBinding = _gridUtilities.updateOneTimeBinding;
     }],
     execute: function () {
-      _export('Grid', Grid = (_dec = customElement('au-grid'), _dec2 = inject(Container, ViewSlot, ViewCompiler, ObserverLocator, RepeatStrategyLocator), _dec3 = children('column'), _dec(_class = _dec2(_class = (_class2 = function (_AbstractRepeater) {
+      _export('Grid', Grid = (_dec = customElement('au-grid'), _dec2 = inject(Container, ViewSlot, ViewCompiler, ObserverLocator, RepeatStrategyLocator), _dec3 = children('au-column'), _dec(_class = _dec2(_class = (_class2 = function (_AbstractRepeater) {
         _inherits(Grid, _AbstractRepeater);
 
         function Grid(container, viewSlot, viewCompiler, observerLocator, strategyLocator) {
