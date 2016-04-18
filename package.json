@@ -1,21 +1,21 @@
 {
   "name": "au-grid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A declarative grid component for aurelia.js",
   "keywords": [
     "aurelia",
     "grid"
   ],
-  "homepage": "https://github.com/mbroadst/grid-component",
+  "homepage": "https://github.com/mbroadst/au-grid",
   "bugs": {
-    "url": "https://github.com/mbroadst/grid-component/issues"
+    "url": "https://github.com/mbroadst/au-grid/issues"
   },
   "license": "MIT",
   "author": "Matt Broadstone <mbroadst@gmail.com>",
   "main": "dist/commonjs/au-grid.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mbroadst/grid-component.git"
+    "url": "https://github.com/mbroadst/au-grid.git"
   },
   "jspm": {
     "registry": "npm",
