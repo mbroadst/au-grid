@@ -1,7 +1,15 @@
-import {inject, bindable, processContent, noView, ViewCompiler} from 'aurelia-framework';
+import {inject} from 'aurelia-dependency-injection';
+import {
+  bindable,
+  customElement,
+  noView,
+  processContent,
+  ViewCompiler
+} from 'aurelia-templating';
 
 @noView
 @processContent(false)
+@customElement('au-column')
 @inject(Element, ViewCompiler)
 export class Column {
   @bindable header

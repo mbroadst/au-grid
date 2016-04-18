@@ -1,9 +1,16 @@
 import {inject, Container} from 'aurelia-dependency-injection';
-import {bindable, children, ViewCompiler, ViewSlot} from 'aurelia-templating';
+import {
+  bindable,
+  children,
+  customElement,
+  ViewCompiler,
+  ViewSlot
+} from 'aurelia-templating';
 import {ObserverLocator} from 'aurelia-binding';
 import {AbstractRepeater, RepeatStrategyLocator} from 'aurelia-templating-resources';
 import {updateOneTimeBinding} from './grid-utilities';
 
+@customElement('au-grid')
 @inject(Container, ViewSlot, ViewCompiler, ObserverLocator, RepeatStrategyLocator)
 export class Grid extends AbstractRepeater {
   @children('column') columns;
@@ -66,7 +73,6 @@ export class Grid extends AbstractRepeater {
     }
   }
 
-  // eventual implementation after strategies are worked out
   rowsChanged() {
     this._stopObservation();
     if (!this.scope) return;
